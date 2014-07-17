@@ -7,6 +7,7 @@ gem 'pg', '0.15.1'
 
 group :development, :test do 
   	gem 'rspec-rails', '2.13.1'
+  	gem 'guard-rspec', '2.5.0'
 
 end 
 
@@ -41,7 +42,7 @@ gem 'jbuilder', '~> 1.2'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
-  gem 'sdoc', require: false
+  gem 'sdoc', '0.3.20', require: false
 end
 
 group :production do
